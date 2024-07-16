@@ -8,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "preview": "vite preview",
+    "lint": "eslint . --ext js, jsx --repo-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
     "react": "^18.0.0",
