@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); 
+
+* {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1d1c1c;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #f7d354;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #b8930c;
+}
+.Cabecalho {
+  text-align: center;
+  background-color:darkslategrey;
+  font-size: 24px;
+}
